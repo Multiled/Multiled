@@ -1,0 +1,30 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+#testimonial {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top: 40px;
+}
+
+#carousel{
+  padding: 10px 0 0 0;
+  margin-top: 40px;
+
+}
+#info-cero,#info-two{
+
+  background: #f1f1f1;
+}
+
+footer {
+  background-color: #f1f1f1;
+}
