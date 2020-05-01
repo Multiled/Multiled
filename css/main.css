@@ -25,6 +25,159 @@ body {
   background: #f1f1f1;
 }
 
-footer {
+#contact {
   background: #f1f1f1;
+}
+
+/*este es css del carousel para logos de empresas*/
+.brands {
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px
+}
+
+.brands_slider_container {
+  height: 130px;
+  border: solid 1px #e8e8e8;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 97px;
+  padding-right: 97px
+}
+
+.brands_slider {
+  height: 100%;
+  margin-top: 50px
+}
+
+.brands_item {
+  height: 100%
+}
+
+.brands_item img {
+  max-width: 100%
+}
+
+.brands_nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 5px;
+  cursor: pointer
+}
+
+.brands_nav i {
+  color: #e5e5e5;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+  color: #676767
+}
+
+.brands_prev {
+  left: 40px
+}
+
+.brands_next {
+  right: 40px
+}
+
+/* aqui dejo el footer-dark */ 
+
+.footer-dark {
+  padding: 50px 0;
+  color: #272727;
+  background-color: #f1f1f1
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+      text-align: center;
+      padding-bottom: 20px
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+      margin-bottom: 0
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0
+}
+
+.footer-dark .item.social {
+  text-align: center
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+      text-align: center;
+      margin-top: 20px
+  }
+}
+
+.footer-dark .item.social>a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(17, 17, 17, 0.4);
+  margin: 0 8px;
+  color: #0c0c0c;
+  opacity: 0.75
+}
+
+.footer-dark .item.social>a:hover {
+  opacity: 0.9
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0
 }
