@@ -48,15 +48,20 @@
       <script src="/jscrips//scrollreaveal.js"></script>
 
       <!--scrips de whatsapp-->
+
             <!--Jquery-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <!--Floating WhatsApp css-->
       <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
       <!--Floating WhatsApp javascript-->
       <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
-  
+      <script src="/jscrips/whatsapp.js"></script>
+
   </head>
     <body>
+      
+      <div id="WAButton"></div>
+      <div class="bg"></div>
 
     <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -140,15 +145,24 @@
             </div>  
             <div class="header-content-right">
               <h1 class="display-4 mt-5">Detección y supresión de incendios</h1>
-              <p class="mt-2">
-                Lorem, ipsum dolor sit amet 
-                consectetur adipisicing elit. Voluptate suscipit voluptatem perferendis 
-                culpa dolore quaerat laudantium quia! Libero consectetur est voluptate 
-                tempore, hic reiciendis minima voluptates commodi cum eum molestiae? Amet 
-                possimus omnis dolore aliquid quam. Officiis nulla nam laudantium iure amet. 
-                Debitis maiores enim modi porro sunt. Ratione harum quasi odit nemo rerum eveniet 
-                dolorem quas rem asperiores voluptate!
+              <p class="mt-2 text-justify h4">
+
+                En Multiled protegemos las cosas que son importantes para ti, 
+                por ese motivo tenemos a tu disposición los sistemas de detección contra incendios, 
+                los cuales pueden trabajar en coordinación con los sistemas de supresión de incendios, 
+                de esta manera no solo estarás avisado en caso de tener un conato de incendio, 
+                sino que estarás enteramente protegido.
+                <br>
+                <br>
+                Ahora bien, los sistemas contra incendios Notifier pueden brindarle una protección integral 
+                ajustada a cada una de sus necesidades. Dentro del equipo de trabajo Multiled 
+                contamos con personal calificado y certificado que podrá 
+                responder sus dudas y proporcionarle una cotización.
+
               </p>
+
+              <a name="" id="btn-cot" class="btn btn-lg btn-outline-secondary btn-block mt-4" href="mailto:multiled@multiled.com.mx;ab.ric.ibarra@gmail.com" role="button">Solicitar cotización</a>
+
             </div>
           </div>
         </div>
@@ -163,7 +177,7 @@
             <p>Amet neque nulla enim ex adipisci. 
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor enim omnis a earum minima? Nam possimus, et sed ad ipsam saepe, ea minima quas voluptatum impedit obcaecati perspiciatis delectus.
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam provident doloribus alias soluta, reiciendis eius eveniet odio tempore fugiat ullam repellendus facilis sed quae possimus perferendis aut eligendi, dolores autem. Dolorum maxime at mollitia eius explicabo maxime eaque hic eveniet corporis est officia corporis laudantium sed odit officia, voluptates iure in doloremque. Atque quo.</p>
-              <a href="#" class="btn btn-outline-secondary btn-lg">Read More</a>
+              <!--a href="#" class="btn btn-outline-secondary btn-lg">Read More</a-->
           </div>
           <div class="col-md-6 my-auto">
             <h2>Tipos de sensores</h2>
@@ -303,7 +317,7 @@
                   <div class="form-group">
                     <textarea cols="30" rows="10" placeholder="Mensaje" class="form-control"></textarea>
                   </div>
-                  <button class="btn btn-outline-secondary btn-block" href="multiled@multiled.com.mx">
+                  <button class="btn btn-outline-secondary btn-block" href="mailto:multiled@multiled.com.mx">
                     Enviar
                   </button>
                 </div>
@@ -365,6 +379,7 @@
             <div id="icons" class="col item social">
               <a href="https://www.facebook.com/Multiledzacatecas/"><i class="fa fa-facebook"></i></a>
               <a href="https://www.linkedin.com/company/multiled/"><i class="fa fa-linkedin"></i></a>
+              <!--a href=""><i class="fa fa-whatsapp"></i></a  --no pudimos  hacer bien el link a whastapp, falta investigación-->
             </div> 
             </div>
           
